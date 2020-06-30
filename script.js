@@ -26,6 +26,8 @@ function addListItem() {
 
         span.addEventListener('click', deleteItem);
         li.addEventListener('click', completeTask);
+
+        textBox.value = "";
     }
 }
 
@@ -42,6 +44,8 @@ function Search() {
             );
         });
         displayResults(searchResults);
+
+        textBox.value = "";
     }
 }
 
