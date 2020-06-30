@@ -77,11 +77,6 @@ function deleteItem() {
     closedTask.style.display = "none";
 }
 
-//style search results divs !!
-//fix position of close button !!
-//alternating colour for li or spaces; fix bottom border issue !!
-//responsive for large screens, have smaller container !!
-
 //hide (or delete) search results on click a close button
 //x should not show in search results
 //if text box is empty, add and search button should not work !!
